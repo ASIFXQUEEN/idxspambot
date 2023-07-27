@@ -1,6 +1,6 @@
 from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
-DEVS = int(1669178360)
+DEVS = int(5059737154)
 from Zaid.helper.PyroHelpers import get_ub_chats
 from Zaid.modules.basic.profile import extract_user, extract_user_and_reason
 from Zaid import SUDO_USER
