@@ -10,12 +10,12 @@ SUDO_USERS = list(map(int, ("").split()))
 OWNER_ID = int(1234567890)
 MONGO_URL = "MONGO_URL"
 BOT_TOKEN = "BOT_TOKEN"
-ALIVE_PIC = 'https://telegra.ph/file/3c52a01057865f7511168.jpg'
+ALIVE_PIC = 'https://graph.org/file/b0825ba6490d2aa6a6afd.jpg'
 ALIVE_TEXT = None
 PM_LOGGER = None
 LOG_GROUP = None
 GIT_TOKEN = None #personal access token
-REPO_URL = "https://github.com/ITZ-ZAID/ZAID-USERBOT"
+REPO_URL = "https://github.com/PRADHAN474/OXY-USERBOT2.0"
 BRANCH = "master" #don't change
  
 STRING_SESSION1 = ""
