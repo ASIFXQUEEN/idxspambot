@@ -9,7 +9,7 @@ async def start_bot():
     await app.start()
     print("LOG: Founded Bot token Booting™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍..")
     for all_module in ALL_MODULES:
-        importlib.import_module("™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍" + all_module)
+        importlib.import_module("OXYGEN_MODULE" + all_module)
         print(f"Successfully Imported ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 {all_module} 💥")
     for cli in clients:
         try:
