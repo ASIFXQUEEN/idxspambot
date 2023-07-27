@@ -24,14 +24,14 @@ async def dmraid(xspam: Client, e: Message):
           ok = await xspam.get_users(Zaid[1])
           id = ok.id
           if int(id) in VERIFIED_USERS:
-                text = f"Chal Chal baap Ko mat sikha"
+                text = f"Chal Chal baap Ko mat sikha😈"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of my devs."
+                text = f"Abe Lawde that guy part of 𝐎𝐗𝐘𝐄𝐆𝐍."
                 await e.reply_text(text)
           else:
               counts = int(Zaid[0])
-              await e.reply_text("`Dm Raid Strated Successfully`")
+              await e.reply_text("`Dm Raid Strated Successfully✅")
               for _ in range(counts):
                     reply = choice(RAID)
                     msg = f"{reply}"
@@ -42,14 +42,14 @@ async def dmraid(xspam: Client, e: Message):
           ok = await xspam.get_users(user_id)
           id = ok.id
           if int(id) in VERIFIED_USERS:
-                text = f"Chal Chal baap Ko mat sikha"
+                text = f"Chal Chal baap Ko mat sikha😈"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of my devs."
+                text = f"Abe Lawde that guy part of 𝐎𝐗𝐘𝐄𝐆𝐍."
                 await e.reply_text(text)
           else:
               counts = int(Zaid[0])
-              await e.reply_text("Dm Raid Strated Successfully")
+              await e.reply_text("Dm Raid Strated Successfully✅")
               for _ in range(counts):
                     reply = choice(RAID)
                     msg = f"{reply}"
@@ -67,10 +67,10 @@ async def dmspam(spam: Client, e: Message):
           ok = await spam.get_users(text[0])
           id = ok.id
           if int(id) in VERIFIED_USERS:
-                text = f"Chal Chal baap Ko mat sikha"
+                text = f"Chal Chal baap Ko mat sikha😈"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of my devs."
+                text = f"Abe Lawde that guy part of 𝐎𝐗𝐘𝐄𝐆𝐍."
                 await e.reply_text(text)
           else:
               counts = int(Zaid[0])
@@ -83,7 +83,7 @@ async def dmspam(spam: Client, e: Message):
           ok = await spam.get_users(user_id)
           id = ok.id
           if int(id) in VERIFIED_USERS:
-                text = f"Chal Chal baap Ko mat sikha"
+                text = f"Chal Chal baap Ko mat sikha😈"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
                 text = f"Abe Lawde that guy part of my devs."
