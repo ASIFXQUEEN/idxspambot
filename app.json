@@ -1,12 +1,13 @@
 {
     "name": "™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 Userbot",
+    "logo": "https://graph.org/file/b0825ba6490d2aa6a6afd.jpg",
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
     "repository": "https://github.com/PRADHAN474/OXY-Userbot2.0",
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
-            "description": "fill with the telethon session string from https://replit.com/@Itz-zaid/Generator",
+            "description": "fill with the telethon session string",
             "required": true
         },
         "MONGO_URL": {
@@ -15,12 +16,12 @@
             "value": ""
         },
         "SUDO_USERS": {
-            "description": "Fill there your I'd go to @Zaid2_Robot pm and type /id",
+            "description": "Fill there /id",
             "required": true,
             "value": "1234567890 1234567890"
         },
         "OWNER_ID": {
-            "description": "Fill there your I'd go to @Zaid2_Robot pm and type /id",
+            "description": "Fill there your I'd",
             "required": true,
             "value": "1234567890"
         },
