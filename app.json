@@ -1,8 +1,8 @@
 {
-    "name": "Zaid Userbot",
+    "name": "™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 Userbot",
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
-    "repository": "https://github.com/ITZ-ZAID/Zaid-Userbot",
+    "repository": "https://github.com/PRADHAN474/OXY-Userbot2.0",
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
