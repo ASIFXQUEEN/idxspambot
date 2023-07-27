@@ -10,7 +10,7 @@ async def start_bot():
     print("LOG: Founded Bot token Booting..")
     for all_module in ALL_MODULES:
         importlib.import_module("Zaid.modules" + all_module)
-        print(f"Successfully Imported {all_module} 💥")
+        print(f"Successfully Imported ™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 {all_module} 💥")
     for cli in clients:
         try:
             await cli.start()
