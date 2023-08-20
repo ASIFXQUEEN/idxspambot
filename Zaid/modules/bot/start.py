@@ -5,7 +5,7 @@ from pyrogram import *
 from pyrogram.types import * 
 
 PHONE_NUMBER_TEXT = (
-    "✘ Heya My Master✨🥀!\n\n✘ I'm Your Assistant?\n\n‣ I can help you to host Your Left Clients.\n\n‣ 2.0 \n\n‣ This specially for Buzzy People's(lazy)\n\n‣ Now /clone {send your PyroGram String Session}"
+    "💫🥀 𝙷𝙴𝚈 𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 𝙾𝚇𝚈𝙶𝙴𝙽!\n\n✘ 𝙸'm ˹𝕆𝕩𝕪𝕘𝕖𝕟 ꭙ ℂ𝕝𝕠𝕟𝕖˼ 🫧?\n\n‣ 𝙸 𝙲𝙰𝙽 𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙲𝙻𝙾𝙽𝙴 𝙾𝚇𝚈𝙶𝙴𝙽 𝚄𝚂𝙴𝚁𝙱𝙾𝚃.\n\n‣ 2.0 \n\n‣ This specially for Buzzy People's(lazy)\n\n‣ Now /clone {send your PyroGram String Session}"
 )
 
 @app.on_message(filters.command("start"))
