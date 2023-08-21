@@ -5,17 +5,17 @@ from pyrogram import *
 from pyrogram.types import * 
 
 PHONE_NUMBER_TEXT = (
-    "✘ Heya!\n\n✘ I'm Your Assistant?\n\n‣ I can help you to host Your Left Clients.\n\n‣ Repo: github.com/Itz-Zaid/Zaid-Userbot \n\n‣ This is specially for Buzzy People (lazy)\n\n‣ Now /clone {send your PyroGram String Session}"
+    "✘ Heya!\n\n✘ I'm Your Assistant?\n\n‣ I can help you to host Your Left Clients.\n\n‣ Repo:  \n\n‣ This is specially for Buzzy People (lazy)\n\n‣ Now /clone {send your PyroGram String Session}"
 )
 
 @app.on_message(filters.command("start"))
 async def hello(client: app, message):
     buttons = [
         [
-            InlineKeyboardButton("✘ Updates Channel", url="t.me/TheUpdatesChannel"),
+            InlineKeyboardButton("✘ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥", url="t.me/PRADHAN474"),
         ],
         [
-            InlineKeyboardButton("✘ Support Group", url="t.me/TheSupportChat"),
+            InlineKeyboardButton("✘ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="t.me/BWANDARLOK"),
         ],
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
