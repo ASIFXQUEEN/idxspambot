@@ -5,7 +5,7 @@ services:
     env: python
     buildCommand: pip install -U -r requirements.txt
     startCommand: python3 server.py & python3 -m Zaid
-    repo: https://github.com/PRADHAN474/OXY-USERBOT2.0     
+    repo: https://github.com/itzshukla/STRANGER-USERBOT2.0     
     branch: master
     envVars:
       - key: SUDO_USERS 
