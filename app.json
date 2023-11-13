@@ -1,9 +1,9 @@
 {
-    "name": "™°‌ 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍 Userbot",
-    "logo": "https://graph.org/file/b0825ba6490d2aa6a6afd.jpg",
+    "name": "™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐔𝐒𝐄𝐑𝐁𝐎𝐓",
+    "logo": "https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg",
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
-    "repository": "https://github.com/PRADHAN474/OXY-Userbot2.0",
+    "repository": "https://github.com/itzshukla/STRANGER-USERBOT2.0",
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
