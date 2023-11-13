@@ -17,14 +17,14 @@ if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** 🫧 🇴 🇽 𝐘 𝐆 𝐄 𝐍**\n\n"
+        f"** 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 **\n\n"
         f"❏ **νєяѕισи**: `2.1`\n"
         f"├• **υρтιмє**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **ρутнσи**: `{python_version()}`\n"
         f"├• **ρуяσgяαм**: `{__version__}`\n"
-        f"├• **ѕυρρσят**: [Click](t.me/BWANDARLOK)\n"
-        f"├• **¢нαииєℓ**: [Click](t.me/PRADHAN474)\n"
-        f"└• **яєρσ**: [Click](https://GitHub.com/PRADHAN474/OXY-USERBOT2.0)"        
+        f"├• **ѕυρρσят**: [Click](t.me/mastiwithfriendsx)\n"
+        f"├• **¢нαииєℓ**: [Click](t.me/shiva_ansh_op)\n"
+        f"└• **яєρσ**: [Click](https://github.com/itzshukla/STRANGER-USERBOT2.0)"        
     )
 
 @Client.on_message(
@@ -57,12 +57,12 @@ async def repo(bot: Client, message: Message):
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Here is repo: \n\n\nhttps://github.com/PRADHAN474/OXY-USERBOT2.0 Fork & Give an ⭐")
+    await message.edit("Here is repo: \n\n\nhttps://github.com/itzshukla/STRANGER-USERBOT2.0 Fork & Give an ⭐")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://t.me/PRADHAN474")
+    await message.edit("https://t.me/shiva_ansh_op")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
