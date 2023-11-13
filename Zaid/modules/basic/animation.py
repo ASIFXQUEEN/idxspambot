@@ -110,7 +110,7 @@ async def hearts(client: Client, message: Message):
     await asyncio.sleep(0.5)
     await message.edit("❤️ I Love You")
     await asyncio.sleep(3)
-    await message.edit("❤️ I Love You <3")
+    await message.edit("❤️ 𝐈 𝐋𝐎𝐕𝐄 𝐘𝐎𝐔 𝐉𝐀𝐀𝐍 <3")
 
 
 @Client.on_message(
@@ -449,7 +449,7 @@ async def kocok(client: Client, message: Message):
     await e.edit("8===✊D💦💦💦💦💦💦💦💦💦")
     await e.edit("8==✊=D💦💦💦💦💦💦💦💦💦💦")
     await e.edit("8=✊==D That's why it's over?")
-    await e.edit("RIP 😭😭😭😭")
+    await e.edit("𝐊𝐀𝐒𝐀𝐌 𝐋𝐎 𝐀𝐀𝐉 𝐒𝐄 𝐍𝐀 𝐊𝐀𝐑𝐔𝐍𝐆𝐀 𝐘𝐄")
 
 
 @Client.on_message(filters.command(["fuck", "fucek"], ".") & filters.me)
@@ -641,7 +641,7 @@ async def zeyenk(client: Client, message: Message):
     await e.edit("MY BABY")
     await e.edit("💕💞💘💝")
     await e.edit("💘💕💞💝")
-    await e.edit("LOVE YOU 💞")
+    await e.edit("LOVE YOU JAAN 💞")
 
 
 @Client.on_message(filters.command("gabut", ".") & filters.me)
@@ -863,7 +863,7 @@ async def helikopter(client: Client, message: Message):
         "╬═╬ \n"
         "╬═╬ \n"
         "╬═╬ \n"
-        "╬═╬ Hallo Semuanya :) \n"
+        "╬═╬ Hallo STRANGER HERE :) \n"
         "╬═╬☻/ \n"
         "╬═╬/▌ \n"
         "╬═╬/ \\ \n",
