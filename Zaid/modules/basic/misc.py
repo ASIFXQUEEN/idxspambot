@@ -23,7 +23,7 @@ else:
         f"├• **ρутнσи**: `{python_version()}`\n"
         f"├• **ρуяσgяαм**: `{__version__}`\n"
         f"├• **ѕυρρσят**: [Click](t.me/mastiwithfriendsx)\n"
-        f"├• **¢нαииєℓ**: [Click](t.me/shiva_ansh_op)\n"
+        f"├• **¢нαииєℓ**: [Click](t.me/SHIVANSH39)\n"
         f"└• **яєρσ**: [Click](https://github.com/itzshukla/STRANGER-USERBOT2.0)"        
     )
 
@@ -62,7 +62,7 @@ async def repo(bot: Client, message: Message):
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://t.me/shiva_ansh_op")
+    await message.edit("https://t.me/SHIVANSH39")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
