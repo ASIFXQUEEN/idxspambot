@@ -4,7 +4,7 @@
 
 - A First Telegram Userbot Project With Multi Clients Based On PyroGram
 
-<p align="center"><a href="https://t.me/mastiwithfriendsx"><img src="https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/mastiwithfriendsx"><img src="https://graph.org/file/80d729498aac07058fdcf.jpg" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
