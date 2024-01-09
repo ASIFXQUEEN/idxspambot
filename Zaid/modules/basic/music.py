@@ -28,7 +28,7 @@ async def send_music(bot: Client, message: Message):
             await message.delete()
             return
 
-        song_results = await bot.get_inline_bot_results("OXYGENMUSIC47_BOT", song_name)
+        song_results = await bot.get_inline_bot_results("Melaniarobot", song_name)
 
         try:
             # send to Saved Messages because hide_via doesn't work sometimes
