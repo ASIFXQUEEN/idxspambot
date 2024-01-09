@@ -13,17 +13,17 @@
         "MONGO_URL": {
             "description": "Fill there an mongo database from mongodb.com",
             "required": true,
-            "value": ""
+            "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
         },
         "SUDO_USERS": {
             "description": "don't Change this there /id",
             "required": true,
-            "value": "5059737154 123456"
+            "value": "6762113050 6919199044"
         },
         "OWNER_ID": {
             "description": "Fill there your I'd",
             "required": true,
-            "value": "1234567890"
+            "value": "6762113050"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
