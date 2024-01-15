@@ -173,7 +173,7 @@ async def hello_world(client: Client, message: Message):
 
 
 @Client.on_message(
-    filters.me & (filters.command(["shiv"], ".") | filters.regex("^ahh "))
+    filters.me & (filters.command(["shiv"], ".") | filters.regex("^shiv"))
 )
 async def hello_world(client: Client, message: Message):
     mg = await edit_or_reply(message, "ahh")
@@ -190,7 +190,7 @@ async def hello_world(client: Client, message: Message):
     await asyncio.sleep(0.2)
     await mg.edit("aahhhhhhh")
     await asyncio.sleep(0.2)
-    await mg.edit("aaahhhhhhhh")
+    await mg.edit("JOR SE BOLO SHIVANSH PAPA KI JAI")
 
 
 @Client.on_message(filters.command("brain", ".") & filters.me)
