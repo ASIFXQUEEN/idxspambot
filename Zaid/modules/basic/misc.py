@@ -18,13 +18,13 @@ if ALIVE_TEXT:
 else:
     txt = (
         f"** 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 **\n\n"
-        f"❏ **νєяѕισи**: `2.1`\n"
-        f"├• **υρтιмє**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
-        f"├• **ρутнσи**: `{python_version()}`\n"
-        f"├• **ρуяσgяαм**: `{__version__}`\n"
-        f"├• **ѕυρρσят**: [Click](t.me/mastiwithfriendsx)\n"
-        f"├• **¢нαииєℓ**: [Click](t.me/SHIVANSH39)\n"
-        f"└• **яєρσ**: [Click](https://github.com/itzshukla/STRANGER-USERBOT2.0)"        
+        f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
+        f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
+        f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
+        f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ**: [Click](t.me/mastiwithfriendsx)\n"
+        f"├• **𝐌ᴀsᴛᴇʀ**: [Click](t.me/SHIVANSH39)\n"
+        f"└• **𝐔ᴘᴅᴀᴛᴇs**: [Click](https://t.me/SHIVANSH474)"        
     )
 
 @Client.on_message(
