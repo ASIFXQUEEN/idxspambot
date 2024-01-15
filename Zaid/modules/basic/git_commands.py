@@ -16,7 +16,7 @@ from Zaid.helper.aiohttp_helper import AioHttp
 from Zaid.modules.help import add_command_help
 
 
-@Client.on_message(filters.command(["ggraph", "commitgraph"], ".") & filters.me)
+@Client.on_message(filters.command(["github", "commitgraph"], ".") & filters.me)
 async def commit_graph(bot: Client, message: Message):
     if len(message.command) < 2:
         await message.edit(
