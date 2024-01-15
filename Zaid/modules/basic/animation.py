@@ -173,7 +173,7 @@ async def hello_world(client: Client, message: Message):
 
 
 @Client.on_message(
-    filters.me & (filters.command(["ahh"], ".") | filters.regex("^ahh "))
+    filters.me & (filters.command(["shiv"], ".") | filters.regex("^ahh "))
 )
 async def hello_world(client: Client, message: Message):
     mg = await edit_or_reply(message, "ahh")
@@ -449,7 +449,7 @@ async def kocok(client: Client, message: Message):
     await e.edit("8===✊D💦💦💦💦💦💦💦💦💦")
     await e.edit("8==✊=D💦💦💦💦💦💦💦💦💦💦")
     await e.edit("8=✊==D That's why it's over?")
-    await e.edit("𝐊𝐀𝐒𝐀𝐌 𝐋𝐎 𝐀𝐀𝐉 𝐒𝐄 𝐍𝐀 𝐊𝐀𝐑𝐔𝐍𝐆𝐀 𝐘𝐄")
+    await e.edit("sᴀʟᴇ ᴋʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ᴛᴜ ʙʜɪ ᴛᴏʜ ᴋᴀʀᴛᴀ 😉")
 
 
 @Client.on_message(filters.command(["fuck", "fucek"], ".") & filters.me)
@@ -537,7 +537,7 @@ async def hak(client: Client, message: Message):
     await message.edit_text("Hacking complete!\nUploading file...")
     await asyncio.sleep(2)
     await message.edit_text(
-        "Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nWhatsApp Database:\n`./DOWNLOADS/msgstore.db.crypt12`"
+        "Targeted Account Hacked...!\n\n ✅ File has been successfully uploaded to my server.\nWhatsApp Database:\n`./DOWNLOADS/msgstore.db.crypt12`𝑭𝒐𝒓 𝒓𝒆𝒎𝒐𝒗𝒆 𝒉𝒂𝒄𝒌 @SHIVANSH474 "
     )
 
 
@@ -847,7 +847,7 @@ async def menggabut(client: Client, message: Message):
     await e.edit("`GABUT`")
 
 
-@Client.on_message(filters.command(["helikopter", "heli"], ".") & filters.me)
+@Client.on_message(filters.command(["helicopter", "heli"], ".") & filters.me)
 async def helikopter(client: Client, message: Message):
     await edit_or_reply(
         message,
@@ -1306,7 +1306,7 @@ add_command_help(
         ["penis", "To display penis art with emoji."],
         ["tembak", "To display shooting art."],
         ["bundir", "To display bundir art."],
-        ["helikopter", "To display helicopter art."],
+        ["helicopter", "To display helicopter art."],
         ["y", "To display art y sj."],
         ["awk", "to display art awkowkowk."],
         ["nah", "To display art love."],
