@@ -24,7 +24,7 @@ class WWW:
     NearestDC = "Country: `{}`\n" "Nearest Datacenter: `{}`\n" "This Datacenter: `{}`"
 
 @Client.on_message(
-    filters.command(["speedtest"], ".") & (filters.me | filters.user(SUDO_USER))
+    filters.command(["speed"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def speed_test(client: Client, message: Message):
     new_msg = await message.reply_text("`Running speed test . . .`")
