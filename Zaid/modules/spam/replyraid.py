@@ -23,7 +23,7 @@ SUDO_USERS = SUDO_USER
 RAIDS = []
 
 @Client.on_message(
-    filters.command(["pornspam"], ".") & (filters.me | filters.user(SUDO_USER))
+    filters.command(["pspam"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def pornspam(xspam: Client, e: Message): 
     counts = e.command[0]
@@ -123,13 +123,13 @@ add_command_help(
     "raid",
     [
         [".raid", "<user id and count>`."],
-        [".pornspam", "<count>`."],
+        [".pspam", "<count>`."],
         [".hang", "Make telegram hang."],
     ],
 )
 
 @Client.on_message(
-    filters.command(["dreplyraid"], ".") & (filters.me | filters.user(SUDO_USER))
+    filters.command(["drraid"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def gmute_user(client: Client, message: Message):
     args = await extract_user(message)
@@ -160,9 +160,9 @@ async def gmute_user(client: Client, message: Message):
 
 
 add_command_help(
-    "replyraid",
+    "rraid",
     [
-        [".replyraid", "Reply To User\n To Raid on Someone."],
-        [".dreplyraid", "To Disable ReplyRaid."],
+        [".rraid", "Reply To User\n To Raid on Someone."],
+        [".draid", "To Disable ReplyRaid."],
     ],
 )
