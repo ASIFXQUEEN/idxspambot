@@ -83,7 +83,7 @@ unmute_permissions = ChatPermissions(
 
 
 @Client.on_message(
-    filters.group & filters.command(["setchatphoto", "setgpic"], ".") & filters.me
+    filters.group & filters.command(["setchatphoto", "setpic"], ".") & filters.me
 )
 async def set_chat_photo(client: Client, message: Message):
     zuzu = (await client.get_chat_member(message.chat.id, client.me.id)).privileges
