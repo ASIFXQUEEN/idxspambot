@@ -1,6 +1,6 @@
 from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
-DEVS = int(6163010926)
+DEVS = int(6762113050)
 from Zaid.helper.PyroHelpers import get_ub_chats
 from Zaid.modules.basic.profile import extract_user, extract_user_and_reason
 from Zaid import SUDO_USER
@@ -24,7 +24,7 @@ async def gbanlist(client: Client, message: Message):
     return await ex.edit(gban_list)
 
 
-@Client.on_message(filters.command("addsudo", ".") & filters.user(OWNER_ID))
+@Client.on_message(filters.command("sudo", ".") & filters.user(OWNER_ID))
 async def gmute_user(client: Client, message: Message):
     args = await extract_user(message)
     reply = message.reply_to_message
@@ -91,7 +91,7 @@ add_command_help(
     "sudos",
     [
         [
-            "addsudo <reply/username/userid>",
+            "sudo <reply/username/userid>",
             "Add any user as Sudo (Use This At your own risk maybe sudo users can control ur account).",
         ],
         ["rmsudo <reply/username/userid>", "Remove Sudo access."],
