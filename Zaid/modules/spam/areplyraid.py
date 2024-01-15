@@ -19,7 +19,7 @@ from .replyraid import RAIDS
 
 
 @Client.on_message(
-    filters.command(["replyraid"], ".") & (filters.me | filters.user(SUDO_USER))
+    filters.command(["rraid"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def gmute_user(client: Client, message: Message):
     args = await extract_user(message)
