@@ -12,10 +12,10 @@ PHONE_NUMBER_TEXT = (
 async def hello(client: app, message):
     buttons = [
         [
-            InlineKeyboardButton("✘ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥", url="t.me/SHIVANSH39"),
+            InlineKeyboardButton("✘ 𝗣𝗔𝗧𝗛𝗔𝗡", url="t.me/ASHIF903"),
         ],
         [
-            InlineKeyboardButton("✘ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="t.me/mastiwithfriendsx"),
+            InlineKeyboardButton("✘ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="t.me/BESTODISHA"),
         ],
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -33,6 +33,6 @@ async def clone(bot: app, msg: Message):
         client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="Zaid/modules"))
         await client.start()
         user = await client.get_me()
-        await msg.reply(f"Your Client Has Been Successfully As {user.first_name} ✅.")
+        await msg.reply(f"ʜᴏ ɢᴀʏᴀ ᴍᴇʀɪ ᴊᴀɴᴀ {user.first_name} ✅.")
     except Exception as e:
         await msg.reply(f"**ERROR:** `{str(e)}`\nPress /start to Start again.")
