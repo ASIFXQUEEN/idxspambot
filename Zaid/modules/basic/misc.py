@@ -22,9 +22,9 @@ else:
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ**: [Click](t.me/mastiwithfriendsx)\n"
-        f"├• **𝐌ᴀsᴛᴇʀ**: [Click](t.me/SHIVANSH39)\n"
-        f"└• **𝐔ᴘᴅᴀᴛᴇs**: [Click](https://t.me/SHIVANSH474)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ**: [Click](t.me/bestodisha)\n"
+        f"├• **𝐌ᴀsᴛᴇʀ**: [Click](t.me/ASHIF903)\n"
+        f"└• **𝐔ᴘᴅᴀᴛᴇs**: [Click](https://t.me/ARAME9)"        
     )
 
 @Client.on_message(
