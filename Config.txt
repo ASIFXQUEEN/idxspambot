@@ -7,15 +7,15 @@ API_ID = int(6435225) #optional
 API_HASH = "" #optional
 
 SUDO_USERS = list(map(int, ("").split()))
-OWNER_ID = int(6762113050)
+OWNER_ID = int(5099049612)
 MONGO_URL = "MONGO_URL"
 BOT_TOKEN = "BOT_TOKEN"
-ALIVE_PIC = 'https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg'
+ALIVE_PIC = 'https://telegra.ph/file/8134fa7931e35ba24f721.jpg'
 ALIVE_TEXT = None
 PM_LOGGER = None
 LOG_GROUP = None
 GIT_TOKEN = None #personal access token
-REPO_URL = "https://github.com/itzshukla/STRANGER-USERBOT2.0"
+REPO_URL = "https://github.com/ASIFXQUEEN/idxspambot"
 BRANCH = "master" #don't change
  
 STRING_SESSION1 = ""
