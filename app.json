@@ -23,7 +23,7 @@
         "OWNER_ID": {
             "description": "Fill there your I'd",
             "required": true,
-            "value": "6762113050"
+            "value": "5099049612"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
