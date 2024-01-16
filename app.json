@@ -1,9 +1,9 @@
 {
-    "name": "™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 𝐔𝐒𝐄𝐑𝐁𝐎𝐓",
-    "logo": "https://telegra.ph/file/aa4bf1e57d11fb75b602e.jpg",
+    "name": "™°‌ 𝐐𝐔𝐄𝐄𝐍 𝐔𝐒𝐄𝐑𝐁𝐎𝐓",
+    "logo": "https://telegra.ph/file/8134fa7931e35ba24f721.jpg",
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
-    "repository": "https://github.com/itzshukla/STRANGER-USERBOT2.0",
+    "repository": "https://github.com/ASIFXQUEEN/idxspambot",
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
@@ -13,12 +13,12 @@
         "MONGO_URL": {
             "description": "Fill there an mongo database from mongodb.com",
             "required": true,
-            "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
+            "value": "mongodb+srv://xqueenserver:ashif9034@cluster0.z6zufce.mongodb.net/?retryWrites=true&w=majority"
         },
         "SUDO_USERS": {
             "description": "don't Change this there /id",
             "required": true,
-            "value": "6762113050 6919199044"
+            "value": "6632587591 6132821365"
         },
         "OWNER_ID": {
             "description": "Fill there your I'd",
