@@ -18,7 +18,7 @@
         "SUDO_USERS": {
             "description": "don't Change this there /id",
             "required": true,
-            "value": "6632587591 6132821365"
+            "value": "6632587591 6132821365 5099049612"
         },
         "OWNER_ID": {
             "description": "Fill there your I'd",
